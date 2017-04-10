@@ -100,7 +100,6 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
   Complete this function! Make sure you switch between lidar and radar
   measurements.
   */
-  cout << "In Process Measurement: " << endl;
   /*****************************************************************************
    *  Initialization
    ****************************************************************************/
@@ -112,13 +111,11 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
       * Remember: you'll need to convert radar from polar to cartesian coordinates.
     */
     // first measurement
-    cout << "First Measurement: " << endl;
 
     if ((meas_package.sensor_type_ == MeasurementPackage::RADAR) and use_radar_) {
       /**
       Convert radar from polar to cartesian coordinates and initialize state.
       */
-      cout << "First Measurement Is RADAR" << endl;
       float rho = meas_package.raw_measurements_[0];
       float phi = meas_package.raw_measurements_[1];
       float rho_dot = meas_package.raw_measurements_[2];
@@ -130,7 +127,6 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
       x_ << x_in, y_in, rho_dot, phi, 0;
     }
     else if ((meas_package.sensor_type_ == MeasurementPackage::LASER) and use_laser_) {
-      cout << "First Measurement Is LASER" << endl;
       /**
       Initialize state.
       */
@@ -148,15 +144,11 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
   }
   else {
 
-    cout << "NOT First Measurement " << endl;
     float dt = (meas_package.timestamp_ - previous_timestamp_) / 1000000.0; //dt - expressed in seconds
-    cout << dt << endl;
     previous_timestamp_ = meas_package.timestamp_;
     
-    cout << "Calling Prediction" << endl;
     Prediction(dt);
 
-    cout << "Calling Update" << endl;
     if ((meas_package.sensor_type_ == MeasurementPackage::RADAR) and use_radar_) {
       // Radar updates
       UpdateRadar(meas_package);
@@ -181,13 +173,11 @@ void UKF::Prediction(double delta_t) {
   */
   
   //generate sigma points
-  cout << "Start Prediction():" << endl;
   MatrixXd Xsig = MatrixXd(n_x_, 2 * n_x_ + 1);
   MatrixXd A = P_.llt().matrixL();
   
   Xsig.col(0)  = x_;
 
-  cout << "Set Remaining Sigma Points:" << endl;
   //set remaining sigma points
   for (int i = 0; i < n_x_ ; i++)
   {
@@ -195,7 +185,6 @@ void UKF::Prediction(double delta_t) {
     Xsig.col(i+1+n_x_) = x_ - sqrt(lambda_ + n_x_) * A.col(i);
   }
   
-  cout << "Agumentation:" << endl;
   //agumentation
   //create augmented mean vector
   VectorXd x_aug = VectorXd(7);
@@ -217,11 +206,9 @@ void UKF::Prediction(double delta_t) {
   P_aug(5,5) = std_a_ * std_a_;
   P_aug(6,6) = std_yawdd_ *std_yawdd_;
 
-  cout << "create square root matrix:" << endl;
   //create square root matrix
   MatrixXd L = P_aug.llt().matrixL();
 
-  cout << "create augmented sigma points:" << endl;
   //create augmented sigma points
   Xsig_aug.col(0)  = x_aug;
   for (int i = 0; i< n_aug_; i++)
@@ -230,7 +217,6 @@ void UKF::Prediction(double delta_t) {
     Xsig_aug.col(i+1+n_aug_) = x_aug - sqrt(lambda_ + n_aug_) * L.col(i);
   }
 
-  cout << "predict sigma points:" << endl;
   //predict sigma points
   //create matrix with predicted sigma points as columns
     
@@ -267,11 +253,6 @@ void UKF::Prediction(double delta_t) {
     py_p = py_p + 0.5*nu_a*delta_t*delta_t * sin(yaw);
     v_p = v_p + nu_a*delta_t;
 
-    //cout << "=========" << endl;
-    //cout << "yaw_p" << yaw_p << endl;
-    //cout << "nu_yawdd" << nu_yawdd << endl;
-    //cout << "delta_t" << delta_t << endl;
-
     yaw_p = yaw_p + 0.5*nu_yawdd*delta_t*delta_t;
     yawd_p = yawd_p + nu_yawdd*delta_t;
 
@@ -290,14 +271,12 @@ void UKF::Prediction(double delta_t) {
     weights_(i) = weight;
   }
 
-  cout << "predict state mean:" << endl;
   //predicted state mean
   x_.fill(0.0);
   for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //iterate over sigma points
     x_ = x_+ weights_(i) * Xsig_pred_.col(i);
   }
 
-  cout << "predict state covariance matrix:" << endl;
   //predicted state covariance matrix
   P_.fill(0.0);
 
@@ -306,13 +285,11 @@ void UKF::Prediction(double delta_t) {
     // state difference
     VectorXd x_diff = Xsig_pred_.col(i) - x_;
     //angle normalization
-    //cout << x_diff(3) << endl;
     while (x_diff(3)> M_PI) x_diff(3)-=2.*M_PI;
     while (x_diff(3)<-M_PI) x_diff(3)+=2.*M_PI;
 
     P_ = P_ + weights_(i) * x_diff * x_diff.transpose() ;
   }
-  cout << "predicted state covariance matrix:" << endl;
   return;
 }
 
@@ -329,7 +306,6 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
 
   You'll also need to calculate the lidar NIS.
   */
-  std::cout << "==Start UpdateLidar==" << std::endl ;
 
   int n_z = 2;
   VectorXd z = VectorXd(n_z);
@@ -366,7 +342,6 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
 
   You'll also need to calculate the radar NIS.
   */
-  std::cout << "==Start UpdateRadar==" << std::endl ;
   
   //extract input measurement z 
   int n_z = 3;
