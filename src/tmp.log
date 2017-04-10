@@ -1,0 +1,3003 @@
+In Process Measurement: 
+First Measurement: 
+First Measurement Is LASER
+======0
+0
+0
+0
+0
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+In Process Measurement: 
+NOT First Measurement 
+1
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateLidar==
+In Process Measurement: 
+NOT First Measurement 
+0
+Calling Prediction
+Start Prediction():
+Set Remaining Sigma Points:
+Agumentation:
+create square root matrix:
+create augmented sigma points:
+predict sigma points:
+predict state mean:
+predict state covariance matrix:
+predicted state covariance matrix:
+Calling Update
+==Start UpdateRadar==
+Accuracy - RMSE:
+nan
+nan
+nan
+nan
+NIS_laser:
+0
+NIS_radar :
+nan
+Done!

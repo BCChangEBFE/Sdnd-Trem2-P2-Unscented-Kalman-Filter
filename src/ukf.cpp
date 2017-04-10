@@ -32,9 +32,15 @@ UKF::UKF() {
 
   ///* initial state vector
   x_ = VectorXd(n_x_);
+  x_ << 1, 1, 1, 1.57, 0;
 
   ///* initial covariance matrix
   P_ = MatrixXd(n_x_, n_x_);
+  P_ << 2, 0, 0, 0, 0,
+        0, 4, 0, 0, 0,
+        0, 0, 1, 0, 0,
+        0, 0, 0, 0.5, 0,
+        0, 0, 0, 0, 0.5;
 
   // Laser measurement noise standard deviation position1 in m
   std_laspx_ = 0.15;
@@ -46,7 +52,7 @@ UKF::UKF() {
   std_a_ = 0.2;
 
   // Process noise standard deviation yaw acceleration in rad/s^2
-  std_yawdd_ = 0.3;
+  std_yawdd_ = 0.5;
 
   // Radar measurement noise standard deviation radius in m
   std_radr_ = 0.3;
@@ -72,8 +78,8 @@ UKF::UKF() {
 
   //measurement covariance matrix - laser
   R_laser_ = MatrixXd(2, 2);
-  R_laser_ << 0.0225, 0,
-              0, 0.0225;
+  R_laser_ << std_laspx_ * std_laspx_, 0,
+              0, std_laspy_ * std_laspy_;
   //measurement matrix - laser
   H_laser_ = MatrixXd(2, 5);
   H_laser_ << 1, 0, 0, 0, 0,
@@ -107,11 +113,8 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
     */
     // first measurement
     cout << "First Measurement: " << endl;
-    x_ = VectorXd(5);
-    //x_ << 1, 1, 1, 1.57, 0;
-    x_ << 1, 1, 0, 0, 0;
 
-    if (meas_package.sensor_type_ == MeasurementPackage::RADAR) {
+    if ((meas_package.sensor_type_ == MeasurementPackage::RADAR) and use_radar_) {
       /**
       Convert radar from polar to cartesian coordinates and initialize state.
       */
@@ -126,7 +129,7 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
       float y_in = rho * sin(phi);
       x_ << x_in, y_in, rho_dot, phi, 0;
     }
-    else if (meas_package.sensor_type_ == MeasurementPackage::LASER) {
+    else if ((meas_package.sensor_type_ == MeasurementPackage::LASER) and use_laser_) {
       cout << "First Measurement Is LASER" << endl;
       /**
       Initialize state.
@@ -136,30 +139,31 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
       if (fabs(p_x) < 0.0001) {
         p_x = 0.0001 * (p_x + 1.0);
       }
-      x_ << meas_package.raw_measurements_[0], meas_package.raw_measurements_[1], 0,atan2(p_y,p_x),0;
+      x_ << p_x, p_y, 0,atan2(p_y,p_x),0;
     }
       // done initializing, no need to predict or update
     is_initialized_ = true;
-
     previous_timestamp_ = meas_package.timestamp_;
     return;  
   }
+  else {
 
-  cout << "NOT First Measurement " << endl;
-  float dt = (meas_package.timestamp_ - previous_timestamp_) / 1000000.0; //dt - expressed in seconds
-  cout << dt << endl;
-  previous_timestamp_ = meas_package.timestamp_;
-  
-  cout << "Calling Prediction" << endl;
-  Prediction(dt);
+    cout << "NOT First Measurement " << endl;
+    float dt = (meas_package.timestamp_ - previous_timestamp_) / 1000000.0; //dt - expressed in seconds
+    cout << dt << endl;
+    previous_timestamp_ = meas_package.timestamp_;
+    
+    cout << "Calling Prediction" << endl;
+    Prediction(dt);
 
-  cout << "Calling Update" << endl;
-  if (meas_package.sensor_type_ == MeasurementPackage::RADAR) {
-    // Radar updates
-    UpdateRadar(meas_package);
-  } else {
-    // Laser updates
-    UpdateLidar(meas_package);
+    cout << "Calling Update" << endl;
+    if ((meas_package.sensor_type_ == MeasurementPackage::RADAR) and use_radar_) {
+      // Radar updates
+      UpdateRadar(meas_package);
+    } else if (use_laser_) {
+      // Laser updates
+      UpdateLidar(meas_package);
+    }
   }
 }
 
