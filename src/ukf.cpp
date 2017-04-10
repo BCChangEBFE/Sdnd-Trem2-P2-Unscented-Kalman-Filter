@@ -124,14 +124,19 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
       }
       float x_in = rho * cos(phi);
       float y_in = rho * sin(phi);
-      x_ << x_in, y_in, 0, rho_dot, 0;
+      x_ << x_in, y_in, rho_dot, phi, 0;
     }
     else if (meas_package.sensor_type_ == MeasurementPackage::LASER) {
       cout << "First Measurement Is LASER" << endl;
       /**
       Initialize state.
       */
-      x_ << meas_package.raw_measurements_[0], meas_package.raw_measurements_[1], 0,0,0;
+      float p_x = meas_package.raw_measurements_[0];
+      float p_y = meas_package.raw_measurements_[1];
+      if (fabs(p_x) < 0.0001) {
+        p_x = 0.0001 * (p_x + 1.0);
+      }
+      x_ << meas_package.raw_measurements_[0], meas_package.raw_measurements_[1], 0,atan2(p_y,p_x),0;
     }
       // done initializing, no need to predict or update
     is_initialized_ = true;
@@ -389,8 +394,11 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
 
     // measurement model
     Zsig(0,i) = sqrt(p_x*p_x + p_y*p_y);                        //r
-    Zsig(1,i) = atan2(p_y,p_x);                                 //phi
     Zsig(2,i) = (p_x*v1 + p_y*v2 ) / sqrt(p_x*p_x + p_y*p_y);   //r_dot
+    if (fabs(p_x) < 0.0001) {
+      p_x = 0.0001 * (p_x + 1.0);
+    }
+    Zsig(1,i) = atan2(p_y,p_x);                                 //phi
   }
 
   //mean predicted measurement
