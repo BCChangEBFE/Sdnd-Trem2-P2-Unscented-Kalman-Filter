@@ -216,6 +216,8 @@ int main(int argc, char* argv[]) {
   // compute the accuracy (RMSE)
   Tools tools;
   cout << "Accuracy - RMSE:" << endl << tools.CalculateRMSE(estimations, ground_truth) << endl;
+  cout << "NIS_laser:" << endl << ukf.NIS_laser_ << endl;
+  cout << "NIS_radar :" << endl << ukf.NIS_radar_ << endl;
 
   // close files
   if (out_file_.is_open()) {

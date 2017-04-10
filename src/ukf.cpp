@@ -46,7 +46,7 @@ UKF::UKF() {
   std_a_ = 0.2;
 
   // Process noise standard deviation yaw acceleration in rad/s^2
-  std_yawdd_ = 3;
+  std_yawdd_ = 0.3;
 
   // Radar measurement noise standard deviation radius in m
   std_radr_ = 0.3;
@@ -69,6 +69,16 @@ UKF::UKF() {
 
   ///* the current NIS for laser
   NIS_laser_ = 0;
+
+  //measurement covariance matrix - laser
+  R_laser_ = MatrixXd(2, 2);
+  R_laser_ << 0.0225, 0,
+              0, 0.0225;
+  //measurement matrix - laser
+  H_laser_ = MatrixXd(2, 5);
+  H_laser_ << 1, 0, 0, 0, 0,
+              0, 1, 0, 0, 0;
+
 }
 
 UKF::~UKF() {}
@@ -311,69 +321,27 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
   You'll also need to calculate the lidar NIS.
   */
   std::cout << "==Start UpdateLidar==" << std::endl ;
+
   int n_z = 2;
   VectorXd z = VectorXd(n_z);
   z << meas_package.raw_measurements_[0],
        meas_package.raw_measurements_[1];
 
-  //create matrix for sigma points in measurement space
-  MatrixXd Zsig = MatrixXd(n_z, 2 * n_aug_ + 1);
-  for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //2n+1 simga points
-    // measurement model
-    Zsig(0,i) = Xsig_pred_(0,i);
-    Zsig(1,i) = Xsig_pred_(1,i);
-  }
+  VectorXd z_pred = H_laser_ * x_;
+  VectorXd y = z - z_pred;
+  MatrixXd Ht = H_laser_ .transpose();
+  MatrixXd S = H_laser_  * P_ * Ht + R_laser_;
+  MatrixXd Si = S.inverse();
+  MatrixXd PHt = P_ * Ht;
+  MatrixXd K = PHt * Si;
 
-  std::cout << "mean predicted measurement" << std::endl ;
-  //mean predicted measurement
-  VectorXd z_pred = VectorXd(n_z);
-  z_pred.fill(0.0);
-  for (int i = 0; i < 2 * n_aug_ + 1; i++) {
-      z_pred = z_pred + weights_(i) * Zsig.col(i);
-  }
-
-  //measurement covariance matrix S
-  MatrixXd S = MatrixXd(n_z, n_z);
-  S.fill(0.0);
-  for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //2n+1 simga points
-    //residual
-    VectorXd z_diff = Zsig.col(i) - z_pred;
-    S = S + weights_(i) * z_diff * z_diff.transpose();
-  }
-
-  std::cout << "add measurement noise covariance matrix" << std::endl ;
-  //add measurement noise covariance matrix
-  MatrixXd R = MatrixXd(n_z, n_z);
-  R <<    std_laspx_*std_laspx_, 0,
-          0,std_laspy_*std_laspy_;
-  S = S + R;
-
-  //create matrix for cross correlation Tc
-  MatrixXd Tc = MatrixXd(n_x_, n_z);
-
-  std::cout << "calculate cross correlation matrix" << std::endl ;
-  //calculate cross correlation matrix
-  Tc.fill(0.0);
-  for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //2n+1 simga points
-    //residual
-    VectorXd z_diff = Zsig.col(i) - z_pred;
-    // state difference
-    VectorXd x_diff = Xsig_pred_.col(i) - x_;
-    Tc = Tc + weights_(i) * x_diff * z_diff.transpose();
-  }
-
-  //Kalman gain K;
-  MatrixXd K = Tc * S.inverse();
-
-  //residual
-  VectorXd z_diff = z - z_pred;
-
-  //update state mean and covariance matrix
-  x_ = x_ + K * z_diff;
-  P_ = P_ - K*S*K.transpose();
-
-  NIS_laser_= z_diff.transpose() * S.inverse()* z_diff;
-
+  //new estimate
+  x_ = x_ + (K * y);
+  long x_size = x_.size();
+  MatrixXd I = MatrixXd::Identity(x_size, x_size);
+  P_ = (I - K * H_laser_) * P_;
+  
+  NIS_radar_ = y.transpose() * Si * y;
 }
 
 /**
@@ -432,34 +400,14 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
       z_pred = z_pred + weights_(i) * Zsig.col(i);
   }
 
+  //create matrix for cross correlation Tc
+  MatrixXd Tc = MatrixXd(n_x_, n_z);
+  Tc.fill(0.0);
   //measurement covariance matrix S
   MatrixXd S = MatrixXd(n_z, n_z);
   S.fill(0.0);
+  //calculate cross correlation matrix and covariance matrix S
   for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //2n+1 simga points
-    //residual
-    VectorXd z_diff = Zsig.col(i) - z_pred;
-
-    //angle normalization
-    while (z_diff(1)> M_PI) z_diff(1)-=2.*M_PI;
-    while (z_diff(1)<-M_PI) z_diff(1)+=2.*M_PI;
-
-    S = S + weights_(i) * z_diff * z_diff.transpose();
-  }
-
-  //add measurement noise covariance matrix
-  MatrixXd R = MatrixXd(n_z, n_z);
-  R <<    std_radr_*std_radr_, 0, 0,
-          0, std_radphi_*std_radphi_, 0,
-          0, 0,std_radrd_*std_radrd_;
-  S = S + R;
-
-  //create matrix for cross correlation Tc
-  MatrixXd Tc = MatrixXd(n_x_, n_z);
-
-  //calculate cross correlation matrix
-  Tc.fill(0.0);
-  for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //2n+1 simga points
-
     //residual
     VectorXd z_diff = Zsig.col(i) - z_pred;
     //angle normalization
@@ -472,15 +420,22 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
     while (x_diff(3)> M_PI) x_diff(3)-=2.*M_PI;
     while (x_diff(3)<-M_PI) x_diff(3)+=2.*M_PI;
 
+    S = S + weights_(i) * z_diff * z_diff.transpose();
     Tc = Tc + weights_(i) * x_diff * z_diff.transpose();
   }
+
+  //add measurement noise covariance matrix
+  MatrixXd R = MatrixXd(n_z, n_z);
+  R <<    std_radr_*std_radr_, 0, 0,
+          0, std_radphi_*std_radphi_, 0,
+          0, 0,std_radrd_*std_radrd_;
+  S = S + R;
 
   //Kalman gain K;
   MatrixXd K = Tc * S.inverse();
 
   //residual
   VectorXd z_diff = z - z_pred;
-
   //angle normalization
   while (z_diff(1)> M_PI) z_diff(1)-=2.*M_PI;
   while (z_diff(1)<-M_PI) z_diff(1)+=2.*M_PI;

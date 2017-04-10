@@ -78,7 +78,10 @@ public:
   ///* the current NIS for laser
   double NIS_laser_;
 
-
+  //measurement covariance matrix - laser
+  MatrixXd R_laser_;
+  //measurement matrix - laser
+  MatrixXd H_laser_;
 
   /**
    * Constructor
