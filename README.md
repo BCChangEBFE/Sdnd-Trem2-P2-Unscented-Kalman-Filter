@@ -3,32 +3,30 @@
 This is an implementation of the solution to the Unscented Kalman Filter for Self Driving Car project hosted at
 https://github.com/udacity/CarND-Unscented-Kalman-Filter-Project/blob/master/readme.txt
 
-##The results obtained in the project submitted is
-###data-1
-####Accuracy - RMSE:
+## The results obtained in the project submitted is
+### data-1
+#### Accuracy - RMSE:
 0.0830276
 0.0879072
  0.595578
  0.583047
 NIS_laser:
 0
-####NIS_radar :
+#### NIS_radar :
 0.220422
-Done!
 
-###data-2
-####Accuracy - RMSE:
+### data-2
+####A ccuracy - RMSE:
 0.17981
 0.188349
 0.292754
 0.405818
-####NIS_laser:
+#### NIS_laser:
 0
-####NIS_radar :
+#### NIS_radar :
 1.21057
-Done!
 
-##This readme mostly serves as a self-note documenting problems encountered whie working on the project and specific details that I feel are worth noting,
+## This readme mostly serves as a self-note documenting problems encountered whie working on the project and specific details that I feel are worth noting,
 1. If first measurement is laser, it is possible to calculate phi using atan2()
 2. When ever reading in phi or x, check that they are not too small (zero), if they are then I set them to a small number.
 3. Take care to initialize the starting covariance matrix and standard deviation values. Make sure they make sense physically too.
