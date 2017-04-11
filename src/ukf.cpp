@@ -264,17 +264,14 @@ void UKF::Prediction(double delta_t) {
     Xsig_pred_(4,i) = yawd_p;
   }
   
-  double weight_0 = lambda_ / (lambda_ + n_aug_);
-  weights_(0) = weight_0;
-  for (int i=1; i < 2 * n_aug_ + 1; i++) {  //2n+1 weights
-    double weight = 0.5/(n_aug_+lambda_);
-    weights_(i) = weight;
-  }
-
+  //update weights_ and 
   //predicted state mean
   x_.fill(0.0);
-  for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //iterate over sigma points
-    x_ = x_+ weights_(i) * Xsig_pred_.col(i);
+  weights_(0) = (double) (lambda_ / (lambda_ + n_aug_));
+  x_ = x_ + weights_(0) * Xsig_pred_.col(0);
+  for (int i = 1; i < 2 * n_aug_ + 1; i++) {  //2n+1 weights
+    weights_(i) = (double) (0.5/(n_aug_+lambda_));
+    x_ = x_ + weights_(i) * Xsig_pred_.col(i);
   }
 
   //predicted state covariance matrix
@@ -359,6 +356,10 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
   //create matrix for sigma points in measurement space
   MatrixXd Zsig = MatrixXd(n_z, 2 * n_aug_ + 1);
 
+  //create mean predicted measurement
+  VectorXd z_pred = VectorXd(n_z);
+  z_pred.fill(0.0);
+
   //transform sigma points into measurement space
   for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //2n+1 simga points
 
@@ -377,14 +378,12 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
     if (fabs(p_x) < 0.0001) {
       p_x = 0.0001 * (p_x + 1.0);
     }
-    Zsig(1,i) = atan2(p_y,p_x);                                 //phi
-  }
 
-  //mean predicted measurement
-  VectorXd z_pred = VectorXd(n_z);
-  z_pred.fill(0.0);
-  for (int i = 0; i < 2 * n_aug_ + 1; i++) {
-      z_pred = z_pred + weights_(i) * Zsig.col(i);
+    //calculating matrix for sigma points in measurement space
+    Zsig(1,i) = atan2(p_y,p_x);                                 //phi
+
+    //calculating mean predicted measurement
+    z_pred = z_pred + weights_(i) * Zsig.col(i);
   }
 
   //create matrix for cross correlation Tc
