@@ -35,4 +35,3 @@ NIS_laser:
 4. There are some variable that are used more than once, we should try to optimize, as long as it does not sacrifice code readability. Specifically
      - z_diff is used in both Radar Measurement Prediction and UKF update
      - the loop through ( 2 * n_aug_ + 1) is everywhere. Should try to combine them, but be careful not to use variable that are not finalized yet
-5. I have tried to implement updating of laser measurement by going through calculation of sigma points and all just like the Radar UKF case. It works but doesn't really provide any value, better off to just go with simple Kalman Filter approach as in project 1.

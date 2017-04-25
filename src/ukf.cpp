@@ -171,6 +171,7 @@ void UKF::Prediction(double delta_t) {
   Complete this function! Estimate the object's location. Modify the state
   vector, x_. Predict sigma points, the state, and the state covariance matrix.
   */
+
   
   //generate sigma points
   MatrixXd Xsig = MatrixXd(n_x_, 2 * n_x_ + 1);
@@ -309,21 +310,59 @@ void UKF::UpdateLidar(MeasurementPackage meas_package) {
   z << meas_package.raw_measurements_[0],
        meas_package.raw_measurements_[1];
 
-  VectorXd z_pred = H_laser_ * x_;
-  VectorXd y = z - z_pred;
-  MatrixXd Ht = H_laser_ .transpose();
-  MatrixXd S = H_laser_  * P_ * Ht + R_laser_;
-  MatrixXd Si = S.inverse();
-  MatrixXd PHt = P_ * Ht;
-  MatrixXd K = PHt * Si;
+  //create matrix for sigma points in measurement space
+  MatrixXd Zsig = MatrixXd(n_z, 2 * n_aug_ + 1);
 
-  //new estimate
-  x_ = x_ + (K * y);
-  long x_size = x_.size();
-  MatrixXd I = MatrixXd::Identity(x_size, x_size);
-  P_ = (I - K * H_laser_) * P_;
-  
-  NIS_radar_ = y.transpose() * Si * y;
+  //mean predicted measurement
+  VectorXd z_pred = VectorXd(n_z);
+  z_pred.fill(0.0);
+
+  for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //2n+1 simga points
+    // measurement model
+    Zsig(0,i) = Xsig_pred_(0,i);
+    Zsig(1,i) = Xsig_pred_(1,i);
+
+    // measurement model
+    z_pred = z_pred + weights_(i) * Zsig.col(i);
+  }
+
+  //create matrix for cross correlation Tc
+  MatrixXd Tc = MatrixXd(n_x_, n_z);
+  Tc.fill(0.0);
+
+  //measurement covariance matrix S
+  MatrixXd S = MatrixXd(n_z, n_z);
+  S.fill(0.0);
+
+  //calculate cross correlation matrix and covariance matrix S
+  for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //2n+1 simga points
+    //residual
+    VectorXd z_diff = Zsig.col(i) - z_pred;
+    S = S + weights_(i) * z_diff * z_diff.transpose();
+
+    // state difference
+    VectorXd x_diff = Xsig_pred_.col(i) - x_;
+    Tc = Tc + weights_(i) * x_diff * z_diff.transpose();
+  }
+
+  //add measurement noise covariance matrix
+  MatrixXd R = MatrixXd(n_z, n_z);
+  R <<    std_laspx_*std_laspx_, 0,
+          0,std_laspy_*std_laspy_;
+  S = S + R;
+
+  //Kalman gain K;
+  MatrixXd K = Tc * S.inverse();
+
+  //residual
+  VectorXd z_diff = z - z_pred;
+
+  //update state mean and covariance matrix
+  x_ = x_ + K * z_diff;
+  P_ = P_ - K*S*K.transpose();
+
+  NIS_laser_= z_diff.transpose() * S.inverse()* z_diff;
+
 }
 
 /**
@@ -389,9 +428,11 @@ void UKF::UpdateRadar(MeasurementPackage meas_package) {
   //create matrix for cross correlation Tc
   MatrixXd Tc = MatrixXd(n_x_, n_z);
   Tc.fill(0.0);
+
   //measurement covariance matrix S
   MatrixXd S = MatrixXd(n_z, n_z);
   S.fill(0.0);
+
   //calculate cross correlation matrix and covariance matrix S
   for (int i = 0; i < 2 * n_aug_ + 1; i++) {  //2n+1 simga points
     //residual
